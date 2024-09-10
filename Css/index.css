@@ -1,0 +1,52 @@
+
+.gradient-navbar {
+    background: linear-gradient(to left, #3a4664, #eaa0a2, #ffdbdc, #ffffff, #aaaaaa); /* Gradient background */
+}
+
+.navbar-logo {
+    height: 40px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+
+.carousel-image {
+    height: 500px; 
+    object-fit: cover; 
+    width: 100%;
+  }
+
+  .product-img {
+    height: 200px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+  
+.btn-primary {
+    background-color: #eaa0a2 !important; 
+    border-color: #eaa0a2 !important; 
+    color: #ffffff !important; 
+}
+
+
+.btn-primary:hover {
+    background-color: #d28d8b !important; 
+    border-color: #d28d8b !important; 
+}
+
+.gradient-footer {
+    background: linear-gradient(to right, #3a4664, #eaa0a2, #ffdbdc, #ffffff); 
+    color: #070303; 
+}
+
+.gradient-footer a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+.gradient-footer a:hover {
+    text-decoration: underline; 
+}
+
+.footer p {
+    margin: 0; 
+}
