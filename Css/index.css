@@ -20,6 +20,13 @@
     object-fit: cover; 
     width: 100%; 
 }
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto; /* Ensures the card-body grows to fill available space */
+}
   
 .btn-primary {
     background-color: #eaa0a2 !important; 
