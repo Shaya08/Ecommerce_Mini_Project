@@ -1,6 +1,6 @@
 
 .gradient-navbar {
-    background: linear-gradient(to left, #3a4664, #eaa0a2, #ffdbdc, #ffffff, #aaaaaa); /* Gradient background */
+    background: linear-gradient(to left, #3a4664, #eaa0a2, #ffdbdc, #ffffff, #aaaaaa); 
 }
 
 .navbar-logo {
@@ -25,7 +25,7 @@
 .card-body {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto; /* Ensures the card-body grows to fill available space */
+    flex: 1 1 auto; 
 }
   
 .btn-primary {
