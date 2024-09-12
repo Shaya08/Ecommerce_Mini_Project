@@ -39,8 +39,8 @@
                         <a class="nav-link" href="#">SignUp</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <form class="d-flex" id="search-form">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"  id="search-input">
                     <button class="btn btn-outline-secondary" type="submit">
                         <i class="bi bi-search"></i>
                     </button>
@@ -101,8 +101,9 @@
         </button>
       </div>
       
-    <!-- Products Section -->
-    <section class="container mt-5" id="Products">
+
+     <!-- Products Section -->
+     <section class="container mt-5" id="Products">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h2>Our Products</h2>
             <!--Button off-canvas-->
@@ -113,142 +114,10 @@
         <div class="row">
             <!-- Product Cards -->
             <div class="col-md-10">
-                <div class="row">
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column" >
-                            <img src="../Image/man.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Men's Wear</h5>
-                                <p class="card-text flex-grow-1">Black Tux</p>
-                                <p class="card-text"><strong>Rs:20000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column"  >
-                            <img src="../Image/boys.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Men's Wear</h5>
-                                <p class="card-text flex-grow-1">Leather Jacket & White Shirt</p>
-                                <p class="card-text"><strong>Rs:8000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column" >
-                            <img src="../Image/girl.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Women's Wear</h5>
-                                <p class="card-text flex-grow-1">Green Salwar Suit</p>
-                                <p class="card-text"><strong>Rs:5000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column" >
-                            <img src="../Image/hoodie.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Women's Wear</h5>
-                                <p class="card-text flex-grow-1">Dark Blue Hoodie</p>
-                                <p class="card-text"><strong>Rs:2000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column" >
-                            <img src="../Image/frock.jpeg" class="card-img-top product-img"  alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Kid's Wear</h5>
-                                <p class="card-text flex-grow-1">Light Blue Princess Gown</p>
-                                <p class="card-text"><strong>Rs:15000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column" >
-                            <img src="../Image/top6d535.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Women's Wear</h5>
-                                <p class="card-text flex-grow-1">Light Blue  Top.</p>
-                                <p class="card-text"><strong>Rs.5000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4" >
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="../Image/modern5.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Women's Wear</h5>
-                                <p class="card-text flex-grow-1">School Uniform Skirt and Top.</p>
-                                <p class="card-text"><strong>Rs:8000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="../Image/office.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Women's Wear</h5>
-                                <p class="card-text flex-grow-1">Women Professional Wear</p>
-                                <p class="card-text"><strong>Rs:10000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="../Image/beach.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Men's Wear</h5>
-                                <p class="card-text flex-grow-1">Comfortable Beach Top</p>
-                                <p class="card-text"><strong>Rs:1000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="../Image/shirt01.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Men's Wear</h5>
-                                <p class="card-text flex-grow-1">White Shirt & Floral Prints</p>
-                                <p class="card-text"><strong>Rs:2000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="../Image/kid136b.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Kid's Wear</h5>
-                                <p class="card-text flex-grow-1">White T-Shirt & Jean</p>
-                                <p class="card-text"><strong>RS:2000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 mb-4">
-                        <div class="card h-100 d-flex flex-column">
-                            <img src="../Image/minif.jpeg" class="card-img-top product-img" alt="Product 1">
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="card-title">Kid's Wear</h5>
-                                <p class="card-text flex-grow-1">Black T-Shirt</p>
-                                <p class="card-text"><strong>Rs:1000/-</strong></p>
-                                <a href="#" class="btn btn-primary text-center mt-auto">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-                  
+                <div class="row" id="product-container">
+                    <!--Added in dynamic--> 
                 </div>
-            </div>
+            </div> 
         </div>
     </section>
 
@@ -400,6 +269,6 @@
         </div>
     </footer>
 
-    
+    <script src="../JavaScript/index.js"></script>
 </body>
 </html>
