@@ -1,5 +1,4 @@
 
-document.addEventListener('DOMContentLoaded', function() {
     fetch('../JSON/index.json')
         .then(response => response.json())
         .then(products => {
@@ -21,7 +20,9 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         })
         .catch(error => console.error('Error fetching the JSON file:', error));
-});
+
+
+
 
 function displayProducts(products, container) {
     products.forEach(product => {
