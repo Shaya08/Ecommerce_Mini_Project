@@ -38,19 +38,19 @@
     {
         "imgSrc": "../Image/modern5.jpeg",
         "title": "Womens Wear",
-        "description": "School Uniform Skirt and Top",
+        "description": "Blue Skirt and Top",
         "price": "Rs:8000/-"
     },
     {
         "imgSrc": "../Image/office.jpeg",
         "title": "Womens Wear",
-        "description": "Women Professional Wear",
+        "description": " Yellow Top and White Skirt",
         "price": "Rs:10000/-"
     },
     {
         "imgSrc": "../Image/beach.jpeg",
         "title": "Mens Wear",
-        "description": "Comfortable Beach Top",
+        "description": "Gray Beach Top",
         "price": "Rs:1000/-"
     },
     {
@@ -62,7 +62,7 @@
     {
         "imgSrc": "../Image/kid136b.jpeg",
         "title": "Kids Wear",
-        "description": "White T-Shirt & Jean",
+        "description": "White T-Shirt & Blue Jean",
         "price": "Rs:2000/-"
     },
     {

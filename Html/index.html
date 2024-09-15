@@ -123,140 +123,63 @@
 
     <!-- Off-canvas Filter -->
     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasFilter" aria-labelledby="offcanvasFilterLabel">
-        <div class="offcanvas-header">
-            <h5 id="offcanvasFilterLabel">Filter Options</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasFilterLabel">Filter Options</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
         <div class="offcanvas-body">
-            <form>
-                
-                <div class="mb-3">
-                    <label for="category" class="form-label">Category</label>
-                    <select id="category" class="form-select">
-                        <option selected>All Categories</option>
-                        <option value="1">Women</option>
-                        <option value="2">Men</option>
-                        <option value="3">Kids</option>
-                        <option value="4">Accessories</option>
-                    </select>
+                <form id="filter-form">
+                    <div class="mb-3">
+                        <label for="category" class="form-label">Category</label>
+                        <select id="category" class="form-select">
+                            <option selected value="All Categories">All Categories</option>
+                            <option value="Women">Womens Wear</option>
+                            <option value="Men">Mens Wear</option>
+                            <option value="Kids">Kids Wear</option>
+                            </select>
+                    </div>
 
+                    <div class="mb-3">
+                        <label for="minPrice" class="form-label">Min Price</label>
+                        <input type="number" id="minPrice" class="form-control" placeholder="0" min="0" step="10">
+                    </div>
                     
-                    
-                </div>
-                <div class="mb-3">
-                    <label class="form-label">Brands</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="brand1" value="brand1">
-                        <label class="form-check-label" for="brand1">
-                            Channel
-                        </label>
+                    <div class="mb-3">
+                        <label for="maxPrice" class="form-label">Max Price</label>
+                        <input type="number" id="maxPrice" class="form-control" placeholder="500" min="0" step="10">
                     </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="brand2" value="brand2">
-                        <label class="form-check-label" for="brand2">
-                            Gucci
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="brand3" value="brand3">
-                        <label class="form-check-label" for="brand3">
-                            Louis Vuitton
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="brand4" value="brand4">
-                        <label class="form-check-label" for="brand4">
-                            Puma
-                        </label>
-                    </div>
-                </div>
 
-                <div class="mb-3">
-                    <label for="minPrice" class="form-label">Min Price</label>
-                    <input type="number" id="minPrice" class="form-control" placeholder="0" min="0" step="10">
-                </div>
-                
-                <div class="mb-3">
-                    <label for="maxPrice" class="form-label">Max Price</label>
-                    <input type="number" id="maxPrice" class="form-control" placeholder="500" min="0" step="10">
-                </div>
+            <div class="mb-3">
+                <label class="form-label">Color</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="black" value="Black">
+                        <label class="form-check-label" for="black">Black</label>
+                        </div>
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="white" value="White">
+                        <label class="form-check-label" for="white">White</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="blue" value="Blue">
+                        <label class="form-check-label" for="blue">Blue</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="yellow" value="Yellow">
+                        <label class="form-check-label" for="yellow">Yellow</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="green" value="Green">
+                        <label class="form-check-label" for="green">Green</label>
+                    </div>
+                  
+            </div>
 
-
-                <div class="mb-3">
-                    <label class="form-label">Color</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="brand1" value="brand1">
-                        <label class="form-check-label" for="brand1">
-                            Black
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="brand2" value="brand2">
-                        <label class="form-check-label" for="brand2">
-                            White
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="brand3" value="brand3">
-                        <label class="form-check-label" for="brand3">
-                            Blue
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="brand4" value="brand4">
-                        <label class="form-check-label" for="brand4">
-                            Yellow
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="brand4" value="brand4">
-                        <label class="form-check-label" for="brand4">
-                            Red
-                        </label>
-                    </div>
-                </div>
-
-
-                <div class="mb-3">
-                    <label class="form-label">Size</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" id="sizeXS" name="size" value="XS">
-                        <label class="form-check-label" for="sizeXS">
-                            XS
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" id="sizeS" name="size" value="S">
-                        <label class="form-check-label" for="sizeS">
-                            S
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" id="sizeM" name="size" value="M">
-                        <label class="form-check-label" for="sizeM">
-                            M
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" id="sizeL" name="size" value="L">
-                        <label class="form-check-label" for="sizeL">
-                            L
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" id="sizeXL" name="size" value="XL">
-                        <label class="form-check-label" for="sizeXL">
-                            XL
-                        </label>
-                    </div>
-                </div>
-
-                
-               
-                <button type="submit" class="btn btn-primary">Apply Filters</button>
+            <button type="submit" class="btn btn-primary">Apply Filters</button>
             </form>
         </div>
     </div>
+
+
 
     <footer class="gradient-footer text-white text-center py-4" id="footer">
         <div class="container">
