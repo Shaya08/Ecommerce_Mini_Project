@@ -62,3 +62,6 @@ products.map(product => {
     container.insertAdjacentHTML('beforeend', cardHTML);
 });
 }
+
+
+

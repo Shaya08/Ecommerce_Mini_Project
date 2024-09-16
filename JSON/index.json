@@ -1,72 +1,72 @@
 [
     {
-        "imgSrc": "../Image/man.jpeg",
+        "imgSrc": "/Image/man.jpeg",
         "title": "Mens Wear",
         "description": "Black Tux",
         "price": "Rs:20000/-"
     },
     {
-        "imgSrc": "../Image/boys.jpeg",
+        "imgSrc": "/Image/boys.jpeg",
         "title": "Mens Wear",
         "description": "Leather Jacket & White Shirt",
         "price": "Rs:8000/-"
     },
     {
-        "imgSrc": "../Image/girl.jpeg",
+        "imgSrc": "/Image/girl.jpeg",
         "title": "Womens Wear",
         "description": "Green Salwar Suit",
         "price": "Rs:5000/-"
     },
     {
-        "imgSrc": "../Image/hoodie.jpeg",
+        "imgSrc": "/Image/hoodie.jpeg",
         "title": "Womens Wear",
         "description": "Dark Blue Hoodie",
         "price": "Rs:2000/-"
     },
     {
-        "imgSrc": "../Image/frock.jpeg",
+        "imgSrc": "/Image/frock.jpeg",
         "title": "Kids Wear",
         "description": "Light Blue Princess Gown",
         "price": "Rs:15000/-"
     },
     {
-        "imgSrc": "../Image/top6d535.jpeg",
+        "imgSrc": "/Image/top6d535.jpeg",
         "title": "Womens Wear",
         "description": "Light Blue Top",
         "price": "Rs:5000/-"
     },
     {
-        "imgSrc": "../Image/modern5.jpeg",
+        "imgSrc": "/Image/modern5.jpeg",
         "title": "Womens Wear",
         "description": "Blue Skirt and Top",
         "price": "Rs:8000/-"
     },
     {
-        "imgSrc": "../Image/office.jpeg",
+        "imgSrc": "/Image/office.jpeg",
         "title": "Womens Wear",
         "description": " Yellow Top and White Skirt",
         "price": "Rs:10000/-"
     },
     {
-        "imgSrc": "../Image/beach.jpeg",
+        "imgSrc": "/Image/beach.jpeg",
         "title": "Mens Wear",
         "description": "Gray Beach Top",
         "price": "Rs:1000/-"
     },
     {
-        "imgSrc": "../Image/shirt01.jpeg",
+        "imgSrc": "/Image/shirt01.jpeg",
         "title": "Mens Wear",
         "description": "White Shirt & Floral Prints",
         "price": "Rs:2000/-"
     },
     {
-        "imgSrc": "../Image/kid136b.jpeg",
+        "imgSrc": "/Image/kid136b.jpeg",
         "title": "Kids Wear",
         "description": "White T-Shirt & Blue Jean",
         "price": "Rs:2000/-"
     },
     {
-        "imgSrc": "../Image/minif.jpeg",
+        "imgSrc": "/Image/minif.jpeg",
         "title": "Kids Wear",
         "description": "Black T-Shirt",
         "price": "Rs:1000/-"
